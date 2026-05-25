@@ -1,0 +1,54 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+### Virtual Environments ###
+# This blocks the folder causing your error
+.venv/
+venv/
+ENV/
+env/
+app/.venv/
+**/site-packages/
+
+### Machine Learning / Data ###
+# Ignore the large MNIST datasets and saved models
+*.gz
+*.zip
+*.tar
+*.csv
+*.npy
+*.npz
+*.tflite
+checkpoint
+.ipynb_checkpoints/
+data/
+datasets/
+
+### IDEs & OS ###
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Environment Variables ###
+.env

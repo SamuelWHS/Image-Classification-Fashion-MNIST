@@ -18,6 +18,8 @@ Set up a Python virtual environment and install dependencies.
 Run the app with streamlit run app.py.
 The app will be available at http://localhost:8501.
 
+<img width="1919" height="901" alt="Image" src="https://github.com/user-attachments/assets/d065da0c-ce15-40cb-af5c-9aa09e7020db" />
+
 ## Local Setup and Run
 ### Prerequisites
 - Python 3.9 installed.
@@ -151,5 +153,3 @@ cd app
    docker run -p 8501:8501 fashion-mnist-app
    ```
 6. Open your browser to `http://localhost:8501`.
-
-<img width="1919" height="901" alt="Image" src="https://github.com/user-attachments/assets/d065da0c-ce15-40cb-af5c-9aa09e7020db" />
